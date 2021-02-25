@@ -20,7 +20,8 @@ Pod::Spec.new do |s|
   s.resources = ['Source/**/*.{png,m4a}', 'Source/Strings.bundle']
   s.resource_bundles = {
    'KustomerResources' => ['Source/*.xcassets']
-  }  s.source_files = 'Source/**/*.{h,m}'
+  }
+  s.source_files = 'Source/**/*.{h,m}'
   s.requires_arc = true
   s.framework = 'UIKit'
 end
